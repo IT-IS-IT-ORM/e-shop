@@ -1,0 +1,87 @@
+.detailPage {
+}
+
+.product {
+	display: grid;
+	gap: 24px;
+	grid-template-areas:
+		'cover-wrap name'
+		'cover-wrap appraise'
+		'cover-wrap purchasing';
+
+	:global(.cover-wrap) {
+		grid-area: cover-wrap;
+	}
+	a {
+		grid-area: name;
+
+		color: rgba(0, 0, 0, 0.8) !important;
+		font-size: 22px !important;
+		cursor: auto;
+		pointer-events: none;
+	}
+	:global(.appraise) {
+		grid-area: appraise;
+
+		:global(.ant-rate) {
+			font-size: 22px !important;
+		}
+		:global(.comment) {
+			font-size: 18px !important;
+		}
+	}
+	:global(.purchasing) {
+		grid-area: purchasing;
+
+		:global(.price) {
+			font-size: 22px !important;
+
+			:global(.value) {
+				font-size: 24px !important;
+			}
+		}
+	}
+}
+
+.descriptionWrap {
+	margin-top: 24px;
+
+	:global(.title) {
+		margin-bottom: 12px;
+
+		color: rgba(0, 0, 0, 0.8);
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	:global(.description) {
+		color: rgba(0, 0, 0, 0.68);
+		font-size: 16px;
+	}
+}
+
+.commentsWrap {
+	margin-top: 24px;
+
+	:global(.title) {
+		margin-bottom: 12px;
+
+		color: rgba(0, 0, 0, 0.8);
+		font-size: 20px;
+		font-weight: 600;
+	}
+}
+
+.commentList {
+    padding-left: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	:global(.comment) {
+        list-style: none;
+
+		color: rgba(0, 0, 0, 0.68);
+		font-size: 16px;
+	}
+}
