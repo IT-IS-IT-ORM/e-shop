@@ -1,0 +1,26 @@
+.form {
+	width: 400px;
+	max-width: 100%;
+
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+
+	:global(.flex-row) {
+		:global(.ant-form-item-control-input-content) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+
+	:global(.flex-col) {
+		:global(.ant-form-item-control-input-content) {
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+			gap: 8px;
+		}
+	}
+}
