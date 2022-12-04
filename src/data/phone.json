@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "Xiaomi Redmi 10C 4 ГБ/128 ГБ серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h05/h78/49939925073950/xiaomi-redmi-10c-4-gb-128-gb-seryj-104417231-1.jpg",
+		"price": "84500",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 2,
+		"name": "Xiaomi Redmi Note 11 Pro 8 ГБ/128 ГБ серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hd3/hfa/51166990303262/xiaomi-redmi-note-11-pro-8-128gb-seryj-103971386-1.jpg",
+		"price": "134899",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 2
+	},
+	{
+		"id": 3,
+		"name": "Apple iPhone 13 128Gb черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hc2/h05/46392662458398/apple-iphone-13-128gb-cernyj-102298404-1-Container.jpg",
+		"price": "413000",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 4,
+		"name": "Apple iPhone 11 128Gb Slim Box черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h8b/h66/31489166606366/apple-iphone-11-128gb-slim-box-cernyj-100692388-1-Container.jpg",
+		"price": "297100",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 5,
+		"name": "Samsung Galaxy A13 4 ГБ/64 ГБ черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hd4/hbb/49613684932638/smartfon-samsung-galaxy-a13-64gb-sm-a135fzkvskz-black-104253246-1.jpg",
+		"price": "82880",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 6,
+		"name": "Apple iPhone 11 128Gb Slim Box белый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hd6/hf8/33208262066206/apple-iphone-11-128gb-slim-box-belyj-100692385-1-Container.jpg",
+		"price": "302919",
+		"canInstallments": true,
+		"installments": 3,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 7,
+		"name": "Samsung Galaxy A13 4 ГБ/128 ГБ черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h26/h48/49613711835166/smartfon-samsung-galaxy-a13-128gb-sm-a135fzkkskz-black-104253279-1.jpg",
+		"price": "98475",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 8,
+		"name": "Samsung Galaxy A23 6 ГБ/128 ГБ черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hfe/h14/49792685113374/smartfon-samsung-galaxy-a23-sm-a235fzkkskz-128gb-black-104348541-1.jpg",
+		"price": "111490",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 4
+	},
+	{
+		"id": 9,
+		"name": "Xiaomi Redmi Note 11 4 ГБ/128 ГБ серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/ha3/h35/48472414158878/smartfon-xiaomi-redmi-note-11-4-128-graphite-gray-103541773-1.jpg",
+		"price": "101700",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 3
+	},
+	{
+		"id": 10,
+		"name": "Samsung Galaxy A03 Core 2 ГБ/32 ГБ черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h9d/h18/47719147798558/samsung-galaxy-a03-core-2-32gb-cernyj-103153817-1.jpg",
+		"price": "51800",
+		"canInstallments": true,
+		"installments": 3,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 11,
+		"name": "Samsung Galaxy A33 5G 6 ГБ/128 ГБ черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h98/h3f/49894748028958/samsung-galaxy-a33-5g-6-gb-128-gb-cernyj-104398547-1.jpg",
+		"price": "138618",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 12,
+		"name": "Xiaomi Redmi 9A 2 ГБ/32 ГБ серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hf8/h8a/31501174800414/xiaomi-redmi-9a-2-32gb-seryj-100399600-1-Container.jpg",
+		"price": "49990",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 4
+	}
+]

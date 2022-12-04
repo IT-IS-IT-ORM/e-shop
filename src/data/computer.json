@@ -1,0 +1,202 @@
+[
+	{
+		"id": 1,
+		"name": "Apple MacBook Air 13 MGN63 серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h67/h95/33125682380830/apple-macbook-air-2020-13-3-mgn63-seryj-100797845-1-Container.jpg",
+		"price": "492370",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 10
+	},
+	{
+		"id": 2,
+		"name": "Acer Extensa 15 EX215-52 NX.EG8ER.00B черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h96/hbc/52615655882782/acer-extensa-15-ex215-52-nx-eg8er-00b-serebristyj-105725654-1.jpg",
+		"price": "249970",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 3,
+		"name": "Apple MacBook Pro 13 MYD82 серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h8a/hb7/33090949480478/apple-macbook-pro-2020-13-3-myd82-seryj-100797630-1-Container.jpg",
+		"price": "616000",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 3
+	},
+	{
+		"id": 4,
+		"name": "Apple MacBook Air 13 MGN93 серебристый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h67/h95/33125682380830/apple-macbook-air-2020-13-3-mgn63-seryj-100797845-1-Container.jpg",
+		"price": "501845",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 5,
+		"name": "Leap T304 PT00070 белый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hb6/h52/50488427773982/leap-t304-belyj-100786471-1-Container.jpg",
+		"price": "119385",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 6,
+		"name": "ASUS X515EA-BQ1189W 90NB0TY1-M25390 серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hc2/h85/51563452891166/asus-asus-x515ea-i3-1115g4-8gb-256ssd-15-6-win11-x515ea-bq1189w-x515ea-bq1189w-seryj-105321625-1.jpg",
+		"price": "280650",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 7,
+		"name": "ASUS TUF Gaming F15 FX506LHB 90NR03U2-M007N0",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h9a/hf3/52030062559262/asus-tuf-gaming-f15-fx506lhb-90nr03u2-m007n0-cernyj-105574207-1.jpg",
+		"price": "379990",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 8,
+		"name": "ASUS TUF Gaming A15 FA506IHRB-HN084 90NR07G7-",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/ha2/he7/62100002570270/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-cernyj-106255184-1.jpg",
+		"price": "419990",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 9,
+		"name": "Lenovo V14-ADA 82C6S03900 серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h10/ha8/50514616156190/lenovo-v14-ada-82c6s03900-seryj-101128764-1-Container.jpg",
+		"price": "214900",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 10
+	},
+	{
+		"id": 10,
+		"name": "Acer Extensa 15 EX215-31-C4BN NX.EFTER.00G черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h37/h5b/45477777997854/acer-extensa-15-ex215-31-c4bn-nx-efter-00g-cernyj-102274280-1-Container.jpg",
+		"price": "129990",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 11,
+		"name": "Lenovo IdeaPad 3 15ALC6 82KU002VRK серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h49/h94/62392080203806/lenovo-ideapad-3-15alc6-82ku00c3rk-seryj-106408979-1.jpg",
+		"price": "338689",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 3
+	},
+	{
+		"id": 12,
+		"name": "Lenovo IdeaPad 3 15ALC6 82KU002SRK серый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hc0/h60/63262572904478/lenovo-ideapad-3-15alc6-82ku002srk-seryj-106887883-1.jpg",
+		"price": "279990",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 13,
+		"name": "ASUS TUF FX506HC-HN105 90NR0724-M02760 черный",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h61/hd3/64358915768350.jpg?format=preview-medium",
+		"price": "1525890",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 14,
+		"name": "Lenovo IdeaPad 3 15ADA05 81W100RARK серый",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h46/h89/64049036066846.jpg?format=preview-medium",
+		"price": "176700",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 2
+	},
+	{
+		"id": 15,
+		"name": "HP 15s-eq2048ur 4J0Y2EA серебристый",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h40/h87/64424108785694.jpg?format=preview-medium",
+		"price": "346900",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 16,
+		"name": "Lenovo IdeaPad 3 15IGL05 81WQ00EMRK серый",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h89/haa/64373052571678.jpg?format=preview-medium",
+		"price": "169652",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 6
+	},
+	{
+		"id": 17,
+		"name": "Apple MacBook Pro 14 MKGP3 серый",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/ha3/h9b/64200744763422.jpg?format=preview-medium",
+		"price": "1004540",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 18,
+		"name": "Lenovo IdeaPad 3 15IGL05 81WQ00EKRK серый",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h23/h2f/64377773457438.jpg?format=preview-medium",
+		"price": "147160",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": true,
+		"bonus": 10
+	},
+	{
+		"id": 19,
+		"name": "ASUS VivoBook 15 K513EA-L12013W 90NB0SG2-M38550",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/hb1/h5f/64409646399518.jpg?format=preview-medium",
+		"price": "319990",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 20,
+		"name": "Acer Aspire 3 A315-34 NX.HE3ER.006 черный",
+		"cover": "https://resources.cdn-kaspi.kz/img/m/p/h45/h18/64051003588638.jpg?format=preview-medium",
+		"price": "215130",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 5
+	}
+]

@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"product": 1,
+		"rate": 5,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 2,
+		"product": 1,
+		"rate": 4.5,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 3,
+		"product": 1,
+		"rate": 4,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 4,
+		"product": 1,
+		"rate": 4,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 5,
+		"product": 1,
+		"rate": 4,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 6,
+		"product": 1,
+		"rate": 4,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 7,
+		"product": 1,
+		"rate": 2.5,
+		"content": "Sorry, i'm not very satisfied."
+	},
+	{
+		"id": 8,
+		"product": 1,
+		"rate": 2,
+		"content": "Sorry, i'm not very satisfied."
+	},
+	{
+		"id": 9,
+		"product": 1,
+		"rate": 3,
+		"content": "Sorry, i'm not very satisfied."
+	},
+	{
+		"id": 10,
+		"product": 1,
+		"rate": 3.5,
+		"content": "Sorry, i'm not very satisfied."
+	},
+	{
+		"id": 11,
+		"product": 1,
+		"rate": 2.5,
+		"content": "Sorry, i'm not very satisfied."
+	},
+	{
+		"id": 12,
+		"product": 1,
+		"rate": 1,
+		"content": "I hate this product!"
+	},
+	{
+		"id": 13,
+		"product": 1,
+		"rate": 0.5,
+		"content": "I hate this product!"
+	},
+	{
+		"id": 14,
+		"product": 1,
+		"rate": 5,
+		"content": "Very beautifully, i am very satisfied!"
+	},
+	{
+		"id": 15,
+		"product": 1,
+		"rate": 5,
+		"content": "Very beautifully, i am very satisfied!"
+	}
+]

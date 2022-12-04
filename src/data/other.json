@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"name": "Good Life Электро-пемза для кожи ног MJ-2020",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h2f/h59/50103016423454/goodlife-mj-2020-apparat-belyj-104499023-1.jpg",
+		"price": "7799",
+		"canInstallments": true,
+		"installments": 12,
+		"hasBonus": true,
+		"bonus": 3
+	},
+	{
+		"id": 2,
+		"name": "Marwa A-19 серебристый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h64/h91/46330317996062/marwa-a-19-serebristyj-102484234-1.jpg",
+		"price": "2986",
+		"canInstallments": true,
+		"installments": 6,
+		"hasBonus": true,
+		"bonus": 5
+	},
+	{
+		"id": 3,
+		"name": "LG F2J3NS0W белый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h66/h8d/31820622594078/lg-f2j3ns0w-white-3601511-1-Container.jpg",
+		"price": "184990",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 4,
+		"name": "Hansa BOES684620 черный",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h18/h3b/51154746376222/hansa-boes684620-cernyj-104986453-1.jpg",
+		"price": "154297",
+		"canInstallments": true,
+		"installments": 24,
+		"hasBonus": false,
+		"bonus": 0
+	},
+	{
+		"id": 5,
+		"name": "Artel Comarella 50 00-E белый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h4a/h0d/32667126267934/artel-comarella-50-00-e-belyi-100335150-1.jpg",
+		"price": "76650",
+		"canInstallments": false,
+		"installments": 0,
+		"hasBonus": true,
+		"bonus": 1
+	},
+	{
+		"id": 6,
+		"name": "LG Styler S3WER.ALWPCOM белый",
+		"cover": "https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h5a/h88/33237403631646/lg-styler-s3wer-alwpcom-belyj-100755176-1-Container.jpg",
+		"price": "849990",
+		"canInstallments": true,
+		"installments": 36,
+		"hasBonus": false,
+		"bonus": 0
+	}
+]
