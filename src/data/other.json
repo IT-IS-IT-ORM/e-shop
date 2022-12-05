@@ -7,7 +7,9 @@
 		"canInstallments": true,
 		"installments": 12,
 		"hasBonus": true,
-		"bonus": 3
+		"bonus": 3,
+		"isFavorite": false,
+		"productType": "OTHER"
 	},
 	{
 		"id": 2,
@@ -17,7 +19,9 @@
 		"canInstallments": true,
 		"installments": 6,
 		"hasBonus": true,
-		"bonus": 5
+		"bonus": 5,
+		"isFavorite": false,
+		"productType": "OTHER"
 	},
 	{
 		"id": 3,
@@ -27,7 +31,9 @@
 		"canInstallments": false,
 		"installments": 0,
 		"hasBonus": true,
-		"bonus": 1
+		"bonus": 1,
+		"isFavorite": true,
+		"productType": "OTHER"
 	},
 	{
 		"id": 4,
@@ -37,7 +43,9 @@
 		"canInstallments": true,
 		"installments": 24,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": true,
+		"productType": "OTHER"
 	},
 	{
 		"id": 5,
@@ -47,7 +55,9 @@
 		"canInstallments": false,
 		"installments": 0,
 		"hasBonus": true,
-		"bonus": 1
+		"bonus": 1,
+		"isFavorite": true,
+		"productType": "OTHER"
 	},
 	{
 		"id": 6,
@@ -57,6 +67,8 @@
 		"canInstallments": true,
 		"installments": 36,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": false,
+		"productType": "OTHER"
 	}
 ]

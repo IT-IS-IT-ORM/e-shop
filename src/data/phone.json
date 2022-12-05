@@ -7,7 +7,9 @@
 		"canInstallments": true,
 		"installments": 12,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 2,
@@ -17,7 +19,9 @@
 		"canInstallments": true,
 		"installments": 6,
 		"hasBonus": true,
-		"bonus": 2
+		"bonus": 2,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 3,
@@ -27,7 +31,9 @@
 		"canInstallments": true,
 		"installments": 6,
 		"hasBonus": true,
-		"bonus": 1
+		"bonus": 1,
+		"isFavorite": true,
+		"productType": "PHONE"
 	},
 	{
 		"id": 4,
@@ -37,7 +43,9 @@
 		"canInstallments": false,
 		"installments": 0,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 5,
@@ -47,7 +55,9 @@
 		"canInstallments": false,
 		"installments": 0,
 		"hasBonus": true,
-		"bonus": 1
+		"bonus": 1,
+		"isFavorite": true,
+		"productType": "PHONE"
 	},
 	{
 		"id": 6,
@@ -57,7 +67,9 @@
 		"canInstallments": true,
 		"installments": 3,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": true,
+		"productType": "PHONE"
 	},
 	{
 		"id": 7,
@@ -67,7 +79,9 @@
 		"canInstallments": true,
 		"installments": 6,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 8,
@@ -77,7 +91,9 @@
 		"canInstallments": true,
 		"installments": 12,
 		"hasBonus": true,
-		"bonus": 4
+		"bonus": 4,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 9,
@@ -87,7 +103,9 @@
 		"canInstallments": false,
 		"installments": 0,
 		"hasBonus": true,
-		"bonus": 3
+		"bonus": 3,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 10,
@@ -97,7 +115,9 @@
 		"canInstallments": true,
 		"installments": 3,
 		"hasBonus": true,
-		"bonus": 1
+		"bonus": 1,
+		"isFavorite": false,
+		"productType": "PHONE"
 	},
 	{
 		"id": 11,
@@ -107,7 +127,9 @@
 		"canInstallments": true,
 		"installments": 12,
 		"hasBonus": false,
-		"bonus": 0
+		"bonus": 0,
+		"isFavorite": true,
+		"productType": "PHONE"
 	},
 	{
 		"id": 12,
@@ -117,6 +139,8 @@
 		"canInstallments": true,
 		"installments": 6,
 		"hasBonus": true,
-		"bonus": 4
+		"bonus": 4,
+		"isFavorite": false,
+		"productType": "PHONE"
 	}
 ]
