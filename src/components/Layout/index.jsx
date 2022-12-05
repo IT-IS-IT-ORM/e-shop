@@ -13,10 +13,10 @@ import LoginPage from '@/pages/LoginPage';
 import RegisterPage from '@/pages/RegisterPage';
 
 // UI Lib
-import { Layout as AntdLayout, Menu } from 'antd';
+import { Layout as AntdLayout, Menu, FloatButton } from 'antd';
 // Icons
 import { AiOutlineLogin } from 'react-icons/ai';
-import { RiComputerLine } from 'react-icons/ri';
+import { RiComputerLine, RiMenu4Fill } from 'react-icons/ri';
 import { GoDeviceMobile } from 'react-icons/go';
 import { BsBoxSeam } from 'react-icons/bs';
 import { BiShoppingBag } from 'react-icons/bi';
@@ -25,6 +25,29 @@ import { BiShoppingBag } from 'react-icons/bi';
 import classes from './style.module.less';
 
 const { Header, Sider, Content } = AntdLayout;
+
+const menuItems = [
+	{
+		key: '/computers',
+		icon: <RiComputerLine />,
+		label: 'Computers',
+	},
+	{
+		key: '/phones',
+		icon: <GoDeviceMobile />,
+		label: 'Phones',
+	},
+	{
+		key: '/others',
+		icon: <BsBoxSeam />,
+		label: 'Others',
+	},
+	{
+		key: '/favorites',
+		icon: <BiShoppingBag />,
+		label: 'Favorites',
+	},
+];
 
 export default function Layout() {
 	const history = useHistory();
@@ -49,28 +72,7 @@ export default function Layout() {
 					defaultSelectedKeys={['computers']}
 					selectedKeys={menuSelectedKeys}
 					onSelect={handleMenuSelect}
-					items={[
-						{
-							key: '/computers',
-							icon: <RiComputerLine />,
-							label: 'Computers',
-						},
-						{
-							key: '/phones',
-							icon: <GoDeviceMobile />,
-							label: 'Phones',
-						},
-						{
-							key: '/others',
-							icon: <BsBoxSeam />,
-							label: 'Others',
-						},
-						{
-							key: '/favorites',
-							icon: <BiShoppingBag />,
-							label: 'Favorites',
-						},
-					]}
+					items={menuItems}
 				/>
 
 				<div className="creator">
@@ -80,6 +82,8 @@ export default function Layout() {
 
 			<AntdLayout>
 				<Header className={classes.header}>
+					<div className="logo">E-Shop</div>
+
 					<Menu
 						mode="horizontal"
 						onSelect={handleMenuSelect}
@@ -117,6 +121,20 @@ export default function Layout() {
 					</Switch>
 				</Content>
 			</AntdLayout>
+
+			<FloatButton.Group
+				icon={<RiMenu4Fill />}
+				type="primary"
+				trigger="click"
+				className="floating-action-btn">
+				{menuItems.map(item => (
+					<FloatButton
+						key={item.key}
+						icon={item.icon}
+						onClick={() => handleMenuSelect({ key: item.key })}
+					/>
+				))}
+			</FloatButton.Group>
 		</AntdLayout>
 	);
 }
