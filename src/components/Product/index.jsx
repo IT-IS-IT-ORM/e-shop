@@ -11,7 +11,7 @@ import { MdOutlineFavorite, MdOutlineFavoriteBorder } from 'react-icons/md';
 // Scoped style
 import classes from './style.module.less';
 
-export default function Product({ product, className }) {
+export default function Product({ product, onFavorite, className }) {
 	const history = useHistory();
 	const [comments, setComments] = useState([]);
 
@@ -56,8 +56,28 @@ export default function Product({ product, className }) {
 	return (
 		<div className={`${classes.product} ${className}`}>
 			<div className="cover-wrap">
-				{/* <MdOutlineFavoriteBorder className="favorite-icon" /> */}
-				<MdOutlineFavorite className="favorite-icon favorite-icon--active" />
+				{!product.isFavorite && (
+					<MdOutlineFavoriteBorder
+						className="favorite-icon"
+						onClick={() =>
+							onFavorite?.({
+								isFavorite: true,
+								product,
+							})
+						}
+					/>
+				)}
+				{product.isFavorite && (
+					<MdOutlineFavorite
+						className="favorite-icon favorite-icon--active"
+						onClick={() =>
+							onFavorite?.({
+								isFavorite: false,
+								product,
+							})
+						}
+					/>
+				)}
 
 				<img
 					src={product.cover}
