@@ -9,6 +9,11 @@
 		'cover-wrap appraise'
 		'cover-wrap purchasing';
 
+	@media screen and (max-width: 992px) {
+		display: flex;
+		flex-direction: column;
+	}
+
 	:global(.cover-wrap) {
 		grid-area: cover-wrap;
 	}
@@ -73,13 +78,13 @@
 }
 
 .commentList {
-    padding-left: 24px;
+	padding-left: 24px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
 
 	:global(.comment) {
-        list-style: none;
+		list-style: none;
 
 		color: rgba(0, 0, 0, 0.68);
 		font-size: 16px;
