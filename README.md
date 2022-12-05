@@ -8,6 +8,16 @@
 
 拥抱 `React` 函数式组件, `Hooks` 写法。
 
+### 安装 & 运行
+
+下载依赖
+
+- `npm install`
+
+运行本地服务器
+
+- `npm run dev`
+
 ### 技术栈
 
 - `React 17.0.2`
