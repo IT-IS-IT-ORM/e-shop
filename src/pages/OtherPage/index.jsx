@@ -1,8 +1,9 @@
 // React
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 
-// UI Lib
-import {} from 'antd';
+// Context
+import { DataContext } from '@/App';
+
 // Components
 import { Product } from '@/components';
 
@@ -10,19 +11,11 @@ import { Product } from '@/components';
 import classes from './style.module.less';
 
 export default function OtherPage() {
-	const [products, setProducts] = useState([]);
-
-	useEffect(() => {
-		fetch('/src/data/other.json')
-			.then(response => response.json())
-			.then(data => {
-				setProducts(data);
-			});
-	}, []);
+	const { otherList } = useContext(DataContext);
 
 	return (
 		<div className={classes.products}>
-			{products.map(product => (
+			{otherList.map(product => (
 				<Product key={product.id} className="product" product={product} />
 			))}
 		</div>
