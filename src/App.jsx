@@ -19,7 +19,11 @@ const contextDefaultValue = {
 	phoneList,
 	otherList,
 	commentList,
-	favortieList: [],
+	favortieList: [
+		...computerList.filter(item => item.isFavorite),
+		...phoneList.filter(item => item.isFavorite),
+		...otherList.filter(item => item.isFavorite),
+	],
 };
 export const DataContext = createContext(contextDefaultValue);
 
