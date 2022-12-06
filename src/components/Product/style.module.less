@@ -2,6 +2,7 @@
 	:global(.cover-wrap) {
 		position: relative;
 		width: 340px;
+		max-width: 100%;
 		aspect-ratio: 9 / 6;
 		padding: 12px;
 		padding-bottom: 18px;
@@ -22,7 +23,7 @@
 			width: 100%;
 			height: 100%;
 			object-fit: scale-down;
-            cursor: pointer;
+			cursor: pointer;
 		}
 
 		:global(.favorable) {
@@ -64,7 +65,7 @@
 
 			font-size: 22px;
 			cursor: pointer;
-            transition: fill 300ms ease;
+			transition: fill 300ms ease;
 
 			&--active {
 				fill: red;
