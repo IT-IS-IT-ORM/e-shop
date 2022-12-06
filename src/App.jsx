@@ -102,7 +102,10 @@ export default function App() {
 		reflex[product.productType](prevProductList =>
 			prevProductList.map(item => {
 				if (item.id === product.id) {
-					item.isFavorite = !item.isFavorite;
+					return {
+						...item,
+						isFavorite: !item.isFavorite,
+					};
 				}
 
 				return item;
