@@ -1,7 +1,10 @@
 // React
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback, useContext, useMemo } from 'react';
 // Router
 import { useHistory } from 'react-router-dom';
+
+// Context
+import { DataContext } from '@/App';
 
 // Components
 import { Product } from '@/components';
@@ -11,6 +14,22 @@ import classes from './style.module.less';
 
 export default function DetailPage() {
 	const history = useHistory();
+	const { toggleFavorite, computerList, phoneList, otherList } =
+		useContext(DataContext);
+
+	const currentProduct = useMemo(() => {
+		const productFromLocation = history.location.state.product;
+
+		return [...computerList, ...phoneList, ...otherList].find(
+			item =>
+				item.id === productFromLocation.id &&
+				item.productType === productFromLocation.productType,
+		);
+	}, [computerList, phoneList, otherList, history]);
+
+	const handleOnFavorite = useCallback(({ _, product }) => {
+		toggleFavorite(product);
+	}, []);
 
 	useEffect(() => {
 		if (!history.location.state?.product) {
@@ -21,8 +40,9 @@ export default function DetailPage() {
 	return (
 		<div className={classes.detailPage}>
 			<Product
-				product={history.location.state.product}
+				product={currentProduct}
 				className={classes.product}
+				onFavorite={handleOnFavorite}
 			/>
 
 			<div className={classes.descriptionWrap}>
