@@ -2,11 +2,27 @@
 
 > 学习资料，仅供学习参考，禁止销售
 
+> 点击 [在线浏览](https://e-shop-e.netlify.app/)
+
 ## 项目简介
 
 简单的在线商城, 暂未链接后端。
 
 拥抱 `React` 函数式组件, `Hooks` 写法。
+
+### 结果截图
+
+**主页**
+
+![主页](/resule_screen/home_page.jpg)
+
+**移动端页面**
+
+![移动端页面](/resule_screen/mobile_screen.jpg)
+
+**登录页**
+
+![登录页](/resule_screen/login_page.jpg)
 
 ### 安装 & 运行
 
