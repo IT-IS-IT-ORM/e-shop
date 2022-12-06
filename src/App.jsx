@@ -1,5 +1,5 @@
 // React
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useMemo } from 'react';
 // Router
 import { BrowserRouter } from 'react-router-dom';
 
@@ -19,16 +19,19 @@ const contextDefaultValue = {
 	phoneList,
 	otherList,
 	commentList,
-	favortieList: [
-		...computerList.filter(item => item.isFavorite),
-		...phoneList.filter(item => item.isFavorite),
-		...otherList.filter(item => item.isFavorite),
-	],
 };
 export const DataContext = createContext(contextDefaultValue);
 
 export default function App() {
 	const [data, setData] = useState(contextDefaultValue);
+	const favortieList = useMemo(
+		() => [
+			...data.computerList.filter(item => item.isFavorite),
+			...data.phoneList.filter(item => item.isFavorite),
+			...data.otherList.filter(item => item.isFavorite),
+		],
+		[data],
+	);
 
 	const contextSetters = {
 		setComputerList(setStateAction) {
@@ -87,24 +90,29 @@ export default function App() {
 				commentList: setStateAction,
 			}));
 		},
-		setFavoriteList(setStateAction) {
-			if (isFunction(setStateAction)) {
-				setData(prevState => ({
-					...prevState,
-					favortieList: setStateAction(prevState.favortieList),
-				}));
-				return;
-			}
+	};
 
-			setData(prevState => ({
-				...prevState,
-				favortieList: setStateAction,
-			}));
-		},
+	const toggleFavorite = product => {
+		const reflex = {
+			'COMPUTER': contextSetters.setComputerList,
+			'PHONE': contextSetters.setPhoneList,
+			'OTHER': contextSetters.setOtherList,
+		};
+
+		reflex[product.productType](prevProductList =>
+			prevProductList.map(item => {
+				if (item.id === product.id) {
+					item.isFavorite = !item.isFavorite;
+				}
+
+				return item;
+			}),
+		);
 	};
 
 	return (
-		<DataContext.Provider value={{ ...data, ...contextSetters }}>
+		<DataContext.Provider
+			value={{ ...data, favortieList, ...contextSetters, toggleFavorite }}>
 			<BrowserRouter>
 				<Layout />
 			</BrowserRouter>

@@ -11,10 +11,10 @@ import { Product } from '@/components';
 import classes from './style.module.less';
 
 export default function FavoritePage() {
-	const { favortieList } = useContext(DataContext);
+	const { favortieList, toggleFavorite } = useContext(DataContext);
 
-	const handleOnFavorite = useCallback(({ isFavorite, product }) => {
-		console.log(isFavorite, product);
+	const handleOnFavorite = useCallback(({ _, product }) => {
+		toggleFavorite(product);
 	}, []);
 
 	return (
